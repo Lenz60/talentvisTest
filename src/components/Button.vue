@@ -4,7 +4,9 @@
 
 <script>
 export default {
-  setup() {
+  props: ["PlantsName"],
+  setup(props) {
+    // console.log(props.PlantsName);
     return {};
   },
 };
