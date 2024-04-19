@@ -1,15 +1,9 @@
 <template>
-  <div>
-    <Home></Home>
-  </div>
+  <button class="btn btn-primary rounded-lg">Add to cart</button>
 </template>
 
 <script>
-import Home from "./Pages/Home.vue";
 export default {
-  components: {
-    Home,
-  },
   setup() {
     return {};
   },
